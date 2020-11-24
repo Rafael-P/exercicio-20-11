@@ -6,44 +6,60 @@ namespace _20_11
     {
         static void Main(string[] args)
         {
-            string [] nomes = new string[10];
-            int [] notas = new int[40];
+            string [] nomes = new string[2];
+            float  [] notas = new float [8];
+            float  [] media = new float [2];
             
-            for (var contador = 0; contador < 10; contador++)
+            
+            for (var i = 0; i < 2; i++)
             {
-                Console.WriteLine($"Digite o {contador+1}º nome");
-                nomes[contador] = Console.ReadLine();
+                Console.WriteLine($"Digite o {i+1}º nome");
+                nomes[i] = Console.ReadLine();
 
-                Console.WriteLine($"Digite a primeira nota do {contador+1}º aluno");
-                notas[contador] = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Digite a segunda nota do {contador+1}º aluno");
-                notas[contador] = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Digite a terceira nota do {contador+1}º aluno");
-                notas[contador] = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Digite a quarta nota do {contador+1}º aluno");
-                notas[contador] = int.Parse(Console.ReadLine());
-             
+                for (var x = 0; x < 4; x++)
+                {
+                    Console.WriteLine($"Digite a {x+1}º nota:");
+                    notas[x] = float.Parse(Console.ReadLine());
+                }
+                
+                media[i] = CalcularMedia(notas);
+
+            }
+            
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            foreach (string nomeAvulso in nomes)
+            {
+                Console.WriteLine(nomeAvulso);
             }
 
-            foreach (var item in nomes)
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            for (var i = 0; i < nomes.Length; i++)
             {
-                Console.WriteLine($"O aluno {nomes}");
+                Console.WriteLine($"Nome : {nomes[i]} - Média : {media[i]} ");
             }
-
+        
+            Console.ForegroundColor = ConsoleColor.Blue;
             
             
-
+        
+        
         }//fim do main
 
-        int media(int a, int b, int c, int d)
-        {
-            int media = (a+b+c+d)/4;
-            Console.WriteLine("A média é:");
-            return media;
-        }//média
+        static float CalcularMedia(float[] numeros){
 
+            float soma = 0;
 
+            for (var i = 0; i < numeros.Length; i++)
+            {
+                soma += numeros[i];
+            }
 
+            float calculo = soma / numeros.Length;
 
+            return calculo;
+
+        }//fim do calc
     }
 }

@@ -11,3 +11,16 @@ C:\Users\dev\Desktop\20-11\obj\Debug\netcoreapp3.1\20-11.csproj.CoreCompileInput
 C:\Users\dev\Desktop\20-11\obj\Debug\netcoreapp3.1\20-11.dll
 C:\Users\dev\Desktop\20-11\obj\Debug\netcoreapp3.1\20-11.pdb
 C:\Users\dev\Desktop\20-11\obj\Debug\netcoreapp3.1\20-11.genruntimeconfig.cache
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.exe
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.deps.json
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.runtimeconfig.json
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.runtimeconfig.dev.json
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.dll
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\bin\Debug\netcoreapp3.1\20-11.pdb
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.csprojAssemblyReference.cache
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.AssemblyInfoInputs.cache
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.AssemblyInfo.cs
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.csproj.CoreCompileInputs.cache
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.dll
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.pdb
+C:\Users\R4f4e\OneDrive\Área de Trabalho\C#\exercicio-20-11\obj\Debug\netcoreapp3.1\20-11.genruntimeconfig.cache
